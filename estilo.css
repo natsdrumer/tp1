@@ -1,0 +1,74 @@
+.td {
+    margin-top: 50px;
+    padding: 50px;
+    height: 600px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.log {
+    float: left;
+
+}
+
+header {
+    background-color: white;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    color: #2f96d2;
+
+}
+
+.for  {
+    color: #2f96d2;
+}
+
+.tit {
+    float: left;
+    margin-right: 400px;
+    margin-left: 5px;
+    padding-top: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ti {
+    padding-top: 5px;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.master {
+    background: rgb(255,255,255);
+    background: linear-gradient(48deg, rgba(255,255,255,1) 70%, rgba(101,183,231,1) 94%);
+
+}
+
+.msg {
+    height: 200px;
+}
+
+input {
+    width: 300px;
+}
+
+.btn {
+    background-color: #2f96d2;
+    padding: 5px;
+    border: none;
+    color: white;
+    width: 100px;
+}
+
+.btn:hover {
+    background-color: white;
+    cursor: pointer;
+    color: #2f96d2;
+}
