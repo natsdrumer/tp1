@@ -8,30 +8,51 @@
     <title>Contacto</title>
 </head>
 <body>
-  <header>
+  <header class="cab">
     <img class="log" src="logo.jpeg" 
-            alt="logotipo"
-            height="50"
-            width="50"
-        >
-        <h1 class="tit">Nats Duarte</h1>
-        <h1 class="ti">Obrigado pelo contacto</h2>
-  </header>
+        alt="logotipo"
+        height="50"
+        width="50"
+    >
+    <h1 class="tit">Nats Duarte</h1>
+    <nav class="links">
+        <a href="index.html">Home</a>
+        <a href="#">Sobre</a>
+        <a href="https://github.com/natsdrumer"  target="_blank">Github</a>
+        <a href="https://www.facebook.com/natanael8">Rede Social</a>
+
+    </nav>
+
+</header>
 
 <div class="master">
-<div class="td">
-<form class="for" action="POST" data-netlify="true">
-  <label for="name">Nome:</label><br>
-  <input type="text" id="name" name="name" value=""><br>
-  <label for="assunto">Assunto:</label><br>
-  <input type="text" id="assunto" name="assunto" value=""><br> 
-  <label for="mensagem">Mensagem:</label><br>
-  <input class="msg" type="text" id="mensagem" name="mensagem" value=""><br>
-  <input class="btn" type="submit" value="Submit">
-</form> 
-
-
-</div>
+  <section>
+    <div class="form-box">
+        <div class="form-value">
+            <form action="POST" data-netlify="true">
+                <h2>Obrigado pelo contacto</h2>
+                <div class="inputbox">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <input type="text" id="nome" name="nome" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="inputbox">
+                    <ion-icon name="reorder-four-outline"></ion-icon>
+                    <input type="text" id="assunto" name="assunto" required>
+                    <label for="">Assunto</label>
+                </div>
+                <div class="inputbox">
+                  <ion-icon name="chatbox-outline"></ion-icon>
+                  <input type="text" id="mensagem" name="mensagem" required>
+                  <label for="">Mensagem</label>
+                </div>
+                  <input type="submit" class="btn" value="Enviar mensagem">
+            </form>
+        </div>
+    </div>
+</section>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </div>   
 </body>
 </html>

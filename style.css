@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 header {
     background-color: white;
     margin-top: 15px;
@@ -10,11 +11,7 @@ header {
 * {
     margin: 0;
     padding: 0;
-}
-
-a:link {
-    
-    text-decoration: none;
+    font-family: 'poppins',sans-serif;
 }
 
 a:hover {
@@ -30,7 +27,7 @@ a:hover {
 .tit {
     float: left;
     padding-top: 5px;
-    margin-right: 400px;
+    margin-right: 300px;
     margin-left: 5px;
     color: #2f96d2;
 }
@@ -38,6 +35,10 @@ a:hover {
 .links {
     margin-top: 5px;
     padding: 5px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .baixo {
@@ -66,7 +67,7 @@ a:hover {
 }
 
 a {
-    margin-top: 5px;
+    text-decoration: none;
     margin-right: 20px;
     color: #2f96d2;
 }
